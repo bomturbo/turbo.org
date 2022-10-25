@@ -1,2 +1,9 @@
 # turbo.org
 https://drive.google.com/file/d/16E14-c5qrrKqK8DYqj9qQqmJmIw9ubuo/view
+echo "# 54" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M olo
+git remote add origin https://github.com/bomturbo/turbo.org/edit/olo/README.md
+git push -u origin olo
